@@ -1,0 +1,157 @@
+body {
+    height: auto;
+    width: auto;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-family: monospace;
+    text-align: left;
+    margin: 0;
+    animation: body-load 400ms;
+}
+
+h1 {
+    font-size: 400%;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    text-shadow: 0px 0px 6px #d3d3d3;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+p {
+    font-size: 200%;
+    text-shadow: 0px 0px 15px #808080;
+}
+
+#yaptext {
+    width: 90%;
+    margin: auto;
+}
+
+#buttonmain {
+    text-align: left;
+    scale: 300%;
+    position: absolute;
+    top: 500px;
+    left: 35%;
+    width: 100px;
+    height: 100px;
+}
+
+#topbar {
+    color: black;
+    height: 60px;
+    width: auto;
+    background-color: black;
+    border: 0px;
+    box-shadow: 0px 5px 5px #202020;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    animation: topbar-load 400ms;
+}
+
+.topbuttonclass {
+    scale: 200%;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 0px;
+    transition: 100ms;
+    font-family: monospace;
+    font-weight: bold;
+    width: 90px;
+    animation: topbut-load 400ms;
+}
+
+.topbuttonclass:hover {
+    background-color: #333333;
+    border: solid #333333;
+    transition: 250ms;
+    cursor: pointer;
+}
+
+.topbuttons {
+    display: flex;
+}
+
+@keyframes body-load {
+    0% {
+    background-color: #505050;
+    }
+    100% {
+    background-color: #333333;
+    }
+}
+
+@keyframes topbar-load {
+    0% {
+    background-color: #505050;
+    box-shadow: 0px 5px 5px #505050;
+    }
+    100% {
+    background-color: #000000;
+    box-shadow: 0px 5px 5px #202020;
+    }
+}
+
+@keyframes topbut-load {
+    0% {
+    background-color: #505050;
+    color: #505050;
+    }
+    100% {
+    background-color: #000000;
+    color: #FFFFFF;
+    }
+}
+
+#textboxwrapper {
+  position: relative;
+  margin: auto;
+  width: 650px;
+  perspective: 600px;
+}
+
+#alltext {
+    width: 650px;
+    background-color: #000000;
+    margin: auto;
+    padding: auto;
+    border-radius: 10px;
+    transition: 250ms;
+    box-shadow: 0px 5px 5px #202020;
+    animation: topbar-load 200ms;
+}
+
+#alltext:hover {
+  position: relative;
+  transform: scale(107%);
+  cursor: default;
+  background-color: #FFFFFF;
+  color: #000000;
+  text-shadow: 0px 0px 15px #202020;
+}
+
+.textlol1 {
+    padding-top: 20px;
+}
+
+.textlol2 {
+    padding-bottom: 1px;
+}
+
+#sidetext {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: large;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
