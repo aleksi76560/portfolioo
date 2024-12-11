@@ -10,7 +10,6 @@ img {
     margin-left: 20px;
     margin-right: 20px;
     bottom: 14px;
-    text-shadow: 0px 2px 0px black;
 }
 
 #outlook {
@@ -25,4 +24,8 @@ img:hover {
     position: relative;
     transform: scale(115%);
     transition: 100ms;
+}
+
+#buttonswrapper {
+    margin-bottom: 15px;
 }
